@@ -1,4 +1,4 @@
- body{
+body{
  	font-family: 'Inter', sans-serif;
  }
 
@@ -66,7 +66,62 @@ line-height: normal;
 letter-spacing: 0.6px;
 }
 
+.line{
+	display: inline;
+	border: solid red;
+	display: flex;
+width: 1512px;
+height: 454px;
+padding: 108px 100px;
+justify-content: space-between;
+align-items: flex-start;
+background: #19224D;
 	
+
+}
+.Twitter{
+	margin-top: 41px;
+	width: 40px;
+    height: 41px;
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+}
+.Facebook{
+	width: 40px;
+    height: 41px;
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+
+}
+.Vector{
+	position: absolute;
+	
+	margin-bottom: 500px;
+	text-align: center;
+	width: 154.318px;
+    height: 161.249px;
+    flex-shrink: 0
+    }
+    .Vector.png{
+    	width: 260.555px;
+       height: 279.11px;
+       flex-shrink: 0;
+    }
+    .Travel{
+    	width: 443.175px;
+        height: 63.443px;
+        flex-shrink: 0;
+        margin-bottom: 200px;
+    }
+    .content{
+    	color: #696969;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.26px;
+    }
+
+
 
 
 
